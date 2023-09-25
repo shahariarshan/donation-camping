@@ -1,0 +1,153 @@
+
+     [
+      {
+        "id": 1,
+        "picture":"https://i.ibb.co/zh2KPTM/Health.png",
+        "title": "Clean Water Initiative",
+        "category": "Health",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "#0052FF26",
+        "text_button_bg_color": "#0052FF",
+        "description": "Help provide clean and safe drinking water to communities in need around the world.",
+        "price": "$30"
+       
+        
+      },
+      {
+        "id": 2,
+        "picture":"https://i.ibb.co/kKrmv2K/Education.png",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg_color": "#FF444A",
+        "card_bg_color": "#FF444A26",
+        "text_button_bg_color": "#FF444A",
+        "description": "Support our efforts to provide nutritious meals to those facing hunger in our community.",
+        "price": "$20"
+       
+      },
+      {
+        "id": 3,
+        "picture":"https://i.ibb.co/yPQqCV8/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "text_button_bg_color": "#79C23F",
+        "description": "Empower children with the gift of education and pave the way for a brighter future.",
+        "price": "$40"
+       
+      },
+      {
+        "id": 4,
+        "picture":"https://i.ibb.co/ggttJ6N/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "text_button_bg_color": "#F87147",
+        "description": "Provide essential medical supplies and healthcare services to underserved communities.",
+        "price": "$50"
+        
+      },
+      {
+        "id": 5,
+        "picture":"https://i.ibb.co/ggttJ6N/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "text_button_bg_color": "#F87147",
+        "description": "Support initiatives aimed at preserving and protecting our planet's natural resources.",
+        "price": "$35"
+       
+      },
+      {
+        "id": 6,
+        "picture":"https://i.ibb.co/yPQqCV8/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "text_button_bg_color": "#79C23F",
+        "description": "Help rescue and care for animals in need, ensuring they live happy and healthy lives.",
+        "price": "$25"
+        
+      },
+      {
+        "id": 7,
+        "picture":"https://i.ibb.co/kKrmv2K/Education.png",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg_color": "#FF444A",
+        "card_bg_color": "#FF444A26",
+        "text_button_bg_color": "#FF444A",
+        "description": "Support efforts to provide shelter and housing solutions for homeless individuals and families.",
+        "price": "$45"
+      },
+      {
+        "id": 8,
+        "picture":"https://i.ibb.co/zh2KPTM/Health.png",
+        "title": "Empowerment Through Entrepreneurship",
+        "category": "Health",
+        "category_bg_color": "#0052FF",
+        "card_bg_color":"#0052FF26",
+        "text_button_bg_color": "#0052FF",
+        "description": "Foster economic growth by supporting aspiring entrepreneurs in underserved communities.",
+        "price": "$60"
+      },
+      {
+        "id": 9,
+        "picture":"https://i.ibb.co/zh2KPTM/Health.png",
+        "title": "Good Education",
+        "category": "Health",
+        "category_bg_color": "#0052FF",
+        "card_bg_color": "#0052FF26",
+        "text_button_bg_color": "#0052FF",
+        "description": "Provide immediate relief and support to those affected by natural disasters and emergencies.",
+        "price": "$55"
+       
+      },
+      {
+        "id": 10,
+        "picture":"https://i.ibb.co/kKrmv2K/Education.png",
+        "title": "Supporting Mental Health",
+        "category": "Education",
+        "category_bg_color": "#FF444A",
+        "card_bg_color": "#FF444A26",
+        "text_button_bg_color": "#FF444A",
+        "description": "Contribute to mental health programs and initiatives to help individuals in need.",
+        "price": "$40"
+        
+      },
+      {
+        "id": 11,
+        "picture":"https://i.ibb.co/yPQqCV8/Clothing.png",
+        "title": " Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F",
+        "card_bg_color": "rgba(121, 194, 63, 0.15)",
+        "text_button_bg_color": "#79C23F",
+        "description": "Preserve and promote our cultural heritage through art and cultural programs.",
+        "price": "$25"
+       
+      },
+      {
+        "id": 12,
+        "picture":"https://i.ibb.co/ggttJ6N/Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#F87147",
+        "card_bg_color": "rgba(248, 113, 71, 0.15)",
+        "text_button_bg_color": "#F87147",
+        "description": "Show appreciation for our veterans by helping them access necessary support and resources.",
+        "price": "$35"
+       
+    }
+    ]
+
+    
+  
+      
+    
+  
+  
