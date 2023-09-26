@@ -1,3 +1,4 @@
+
 import swal from "sweetalert";
 
 
@@ -11,8 +12,9 @@ const DisplayCard = ({item}) => {
 
         if(!donationAdded){
             addDonation.push(item);
-            localStorage.setItem("donationAdded", JSON.stringify(addDonation));
-            swal("Good Work!","Your Donation successfully added!","Success")
+            localStorage.setItem("donationAdded", JSON.stringify(addDonation))
+            
+            swal("Good job!", "You Donation the button!", "success");
         
 
         }
@@ -22,10 +24,13 @@ const DisplayCard = ({item}) => {
             if(!isExits){
                 addDonation.push(...donationAdded,item);
                 localStorage.setItem("donationAdded", JSON.stringify(addDonation));
-                swal("Good Work!","Your Donation successfully added!","Success")
+                
+                swal("Good job!", "You clicked the button!", "success");
             }
             else{
-                swal("Error!","Already Donated!","Error")
+                
+                
+                swal("Error!","Your Already Donated!")
             }
         }
     }
@@ -36,11 +41,13 @@ const DisplayCard = ({item}) => {
  <div>
  <figure><img className="  lg:h-[600px] lg:max-w-full lg:relative" src={picture} alt="" /></figure>
  </div>
- <div className="bg-opacity-20">
-  <button onClick={handelClick} style={{ backgroundColor: category_bg_color}} className="btn lg:absolute lg:mx-44  font-medium lg:-mt-16 p-3 "><span className="">Donation</span> {price}</button>
+ <div className="">
+ <div>
+  <button onClick={handelClick} style={{ backgroundColor: category_bg_color}} className="btn lg:bg-yellow-400 h-14 mt-3 ml-8 lg:absolute lg:mx-44 font-medium lg:-mt-16 p-3 "><span className="">Donation</span> {price}</button>
  </div>
- 
-   <div className=" lg:pl-40 mt-4">
+ </div>
+  
+   <div className=" lg:pl-40 mt-4 ml-8">
    <p style={{ color: text_button_bg_color }} className="text-start text-3xl font-semibold ">{title}</p>
     <p className="mt-3 mb-10">{description}</p>
    </div>

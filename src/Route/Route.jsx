@@ -23,13 +23,14 @@ const createARouter = createBrowserRouter([
         },
         {
             path:'/static',
-            element:<Static></Static>
+            element:<Static></Static>,
+            loader : () =>fetch('/donation.json')
         
         },
         {
             path:'/donate/:id',
             element:<SingleCard></SingleCard>,
-            loader : () =>fetch('../donation.json')
+            loader : () =>fetch('/donation.json')
         }
     ]
 

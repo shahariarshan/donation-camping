@@ -1,6 +1,7 @@
 
 // eslint-disable-next-line react/prop-types
 const DonationCards = ({item}) => {
+    // eslint-disable-next-line no-unused-vars
     const {picture,title,category,category_bg_color,card_bg_color,text_button_bg_color,price} = item  || {}
     return (
         <div className=" bg-base-300">
