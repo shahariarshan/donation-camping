@@ -6,7 +6,7 @@
         "title": "Clean Water Initiative",
         "category": "Health",
         "category_bg_color": "#0052FF",
-        "card_bg_color": "#0052FF26",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
         "text_button_bg_color": "#0052FF",
         "description": "Help provide clean and safe drinking water to communities in need around the world.",
         "price": "$30"
@@ -19,7 +19,7 @@
         "title": "Good Education",
         "category": "Education",
         "category_bg_color": "#FF444A",
-        "card_bg_color": "#FF444A26",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
         "text_button_bg_color": "#FF444A",
         "description": "Support our efforts to provide nutritious meals to those facing hunger in our community.",
         "price": "$20"
@@ -79,7 +79,7 @@
         "title": "Good Education",
         "category": "Education",
         "category_bg_color": "#FF444A",
-        "card_bg_color": "#FF444A26",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
         "text_button_bg_color": "#FF444A",
         "description": "Support efforts to provide shelter and housing solutions for homeless individuals and families.",
         "price": "$45"
@@ -87,10 +87,10 @@
       {
         "id": 8,
         "picture":"https://i.ibb.co/zh2KPTM/Health.png",
-        "title": "Empowerment Through Entrepreneurship",
+        "title": "Empowerment Through ",
         "category": "Health",
         "category_bg_color": "#0052FF",
-        "card_bg_color":"#0052FF26",
+        "card_bg_color":"rgba(0, 82, 255, 0.15)",
         "text_button_bg_color": "#0052FF",
         "description": "Foster economic growth by supporting aspiring entrepreneurs in underserved communities.",
         "price": "$60"
@@ -101,7 +101,7 @@
         "title": "Good Education",
         "category": "Health",
         "category_bg_color": "#0052FF",
-        "card_bg_color": "#0052FF26",
+        "card_bg_color": "rgba(0, 82, 255, 0.15)",
         "text_button_bg_color": "#0052FF",
         "description": "Provide immediate relief and support to those affected by natural disasters and emergencies.",
         "price": "$55"
@@ -113,7 +113,7 @@
         "title": "Supporting Mental Health",
         "category": "Education",
         "category_bg_color": "#FF444A",
-        "card_bg_color": "#FF444A26",
+        "card_bg_color": "rgba(255, 68, 74, 0.15)",
         "text_button_bg_color": "#FF444A",
         "description": "Contribute to mental health programs and initiatives to help individuals in need.",
         "price": "$40"

@@ -19,6 +19,7 @@ const createARouter = createBrowserRouter([
         {
             path:'/donation',
             element:<Donation></Donation>
+            
         },
         {
             path:'/static',

@@ -1,5 +1,4 @@
 
-
 const Static = () => {
     return (
         <div>

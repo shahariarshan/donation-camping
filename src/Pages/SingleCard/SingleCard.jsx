@@ -3,10 +3,11 @@ import { useLoaderData, useParams } from "react-router-dom";
 import DisplayCard from "./DisplayCard";
 
 
+
 const SingleCard = () => {
     const [item,setItems] = useState()
     const {id} = useParams();
-    console.log(id);
+    // console.log(id);
 
     const donation = useLoaderData();
     // console.log(cards);
@@ -14,12 +15,13 @@ const SingleCard = () => {
     useEffect(()=>{
         const findCards = donation?.find( item => item.id == id);
 
-        console.log(findCards)
+        // console.log(findCards)
         setItems(findCards)
     },[id,donation])
     return(
         <div>
             <DisplayCard item={item}></DisplayCard>
+            
         </div>
     );
 
