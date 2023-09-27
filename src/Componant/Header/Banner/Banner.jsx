@@ -1,29 +1,7 @@
-// import { useLoaderData } from "react-router-dom";
-// import { useRef, useState } from "react";
-// import { document } from "postcss";
-// import Donation from "../../../Pages/Donation/Donation";
+
 
 const Banner = () => {
-  // const donation =useLoaderData()
-  //   const [fullCampaigns, setFullCampaigns] =useState(donation)
-  //   const [searchValue,setSearchValue] = useState(donation);
-  //   const handelSearch = (e) => {
-  //     const search = document.getElementById ("searchInput").value;
-  //     console.log(search)
-  //     e.preventDefault();
-      
-  //     if(search.value){
-  //       const filterCampaigns = fullCampaigns.filter((donation) => donation.category.toLowerCase() === search.toLowerCase());
-  //       if(filterCampaigns){
-  //         setSearchValue(filterCampaigns);
-  //       }
-  //       else{
-  //         setSearchValue(fullCampaigns)
-  //       }
-  //     }
-  //   }
-    
-    
+  
     
   
     return (
@@ -49,11 +27,7 @@ const Banner = () => {
         </div>
       </div>
     </div>
-    {/* <div>
-      {
-        searchValue?.map((donation)=> (<Donation key={donation.id} donation={donation}></Donation>))
-      }
-    </div> */}
+   
      </div>
     );
 };

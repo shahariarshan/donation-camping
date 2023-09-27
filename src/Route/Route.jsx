@@ -12,11 +12,7 @@ const createARouter = createBrowserRouter([
     path:'/',
     element:<MainLayout></MainLayout>,
     children:[
-        //  {
-        //  path:'/',
-        //  element:<Banner></Banner>,
-        // //  loader : () =>fetch('/donation.json')
-        //  },
+       
         {
             path:'/',
             element:<Home></Home>,
