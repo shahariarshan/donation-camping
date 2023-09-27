@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import Donation from "../Pages/Donation/Donation";
 import Static from "../Pages/Static/Static";
 import SingleCard from "../Pages/SingleCard/SingleCard";
+import Banner from "../Componant/Header/Banner/Banner";
 
 
 const createARouter = createBrowserRouter([
@@ -11,6 +12,11 @@ const createARouter = createBrowserRouter([
     path:'/',
     element:<MainLayout></MainLayout>,
     children:[
+        //  {
+        //  path:'/',
+        //  element:<Banner></Banner>,
+        // //  loader : () =>fetch('/donation.json')
+        //  },
         {
             path:'/',
             element:<Home></Home>,
@@ -32,6 +38,7 @@ const createARouter = createBrowserRouter([
             element:<SingleCard></SingleCard>,
             loader : () =>fetch('/donation.json')
         }
+        
     ]
 
    },
